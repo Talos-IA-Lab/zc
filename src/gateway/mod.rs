@@ -32,6 +32,7 @@ use axum::{
     routing::{delete, get, post, put},
     Router,
 };
+use serde::Deserialize;
 use parking_lot::Mutex;
 use std::collections::HashMap;
 use std::net::{IpAddr, SocketAddr};
@@ -1639,6 +1640,7 @@ mod tests {
             linq_signing_secret: None,
             nextcloud_talk: None,
             nextcloud_talk_webhook_secret: None,
+            wati: None,
             observer,
             tools_registry: Arc::new(Vec::new()),
             cost_tracker: None,
@@ -2357,6 +2359,7 @@ mod tests {
             linq_signing_secret: None,
             nextcloud_talk: Some(channel),
             nextcloud_talk_webhook_secret: Some(Arc::from(secret)),
+            wati: None,
             observer: Arc::new(crate::observability::NoopObserver),
             tools_registry: Arc::new(Vec::new()),
             cost_tracker: None,
