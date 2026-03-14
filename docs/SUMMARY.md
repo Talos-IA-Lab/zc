@@ -116,3 +116,8 @@ Last refreshed: **February 28, 2026**.
 - [project/q0-3-stop-reason-state-machine-rfi-2026-03-01.md](project/q0-3-stop-reason-state-machine-rfi-2026-03-01.md)
 - [i18n-gap-backlog.md](i18n-gap-backlog.md)
 - [docs-inventory.md](docs-inventory.md)
+
+### 9) Learning & code study
+
+- [learning/zeroclaw-conversation-summary.md](learning/zeroclaw-conversation-summary.md)
+- [learning/zeroclaw-study-plan-prompt.md](learning/zeroclaw-study-plan-prompt.md)
